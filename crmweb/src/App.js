@@ -10,6 +10,7 @@ import Layout from './layouts/dashboardlayout';
 import Projects from './pages/userdashboard/projects';
 import Admin from './pages/admin/admin';
 import Clients from './pages/userdashboard/clients';
+import Chart from './pages/userdashboard/topclient';
 import ContextProvider from './context/createcontext';
 import AddProject from './components/projects/addproject';
 import AddClient from './components/clients/addclient';
@@ -34,6 +35,7 @@ function App() {
         <Route path='clients' element={<Clients />} />
         <Route path='/clients/addclient' element={<AddClient />} />
         <Route path='/clients/sendemail' element={<SendEmail />} />
+         <Route path='/topclient' element={<Chart />} />
         </Route>
         <Route element={<AdminLayout />}>
         <Route path='admin' element={<Admin />} />

@@ -21,6 +21,11 @@ const Layout = () => {
      id:3,
      name:"Clients",
      link:"/clients"
+    },
+    {
+     id:4,
+     name:"Top clients",
+     link:"/topclient"
     }
     ];
     return ( 

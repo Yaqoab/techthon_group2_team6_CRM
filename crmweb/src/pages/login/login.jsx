@@ -1,7 +1,5 @@
 import LoginComponent from "../../components/logincomponent";
 const Login = () => {
-   
-
     return ( 
       <LoginComponent
         title="Login"

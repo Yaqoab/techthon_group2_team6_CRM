@@ -27,8 +27,7 @@ const {data:project}=useFetch('/api/projects');
 
 const {data:client}=useFetch('/api/clients');
 
-
-    return ( 
+  return ( 
         <Box
         padding='10px'
         >
@@ -75,6 +74,7 @@ const {data:client}=useFetch('/api/clients');
             <Heading size='md'>Clients</Heading>
              <Heading size='md'>{`(${client && client.length})`}</Heading>
          </Box>
+        
         </Flex>
         </Box>
      );
